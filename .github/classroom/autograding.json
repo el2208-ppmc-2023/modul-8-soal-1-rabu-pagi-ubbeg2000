@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "file1.txt",
+      "output": "1 0 0 0 \r\n1 1 0 0 \r\n0 1 1 0 \r\n0 0 1 1 \r\narjuna menemukan cinta!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "file2.txt",
+      "output": "1 1 0 0 \r\n0 1 0 0 \r\n0 1 1 0 \r\n0 0 1 1 \r\narjuna menemukan cinta!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "file3.txt",
+      "output": "1 0 0 0 \r\n1 1 0 0 \r\n0 1 1 0 \r\n0 0 1 0 \r\narjuna menemukan cinta!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "file4.txt",
+      "output": "arjuna tidak menemukan cinta!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "file5.txt",
+      "output": "1 1 1 1 \r\n0 0 0 1 \r\n0 0 0 1 \r\n0 0 0 1 \r\narjuna menemukan cinta!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
